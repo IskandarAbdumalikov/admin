@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 20px 0px;
+    a{
+        text-decoration: none;
+    }
+    &__link{
+        color: #000;
+    }
+    .active{
+        color: red;
+        text-decoration: underline;
+    }
+}
