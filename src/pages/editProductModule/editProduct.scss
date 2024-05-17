@@ -1,0 +1,52 @@
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #0005;
+}
+
+.edit-product-module{
+    width: 400px;
+    padding: 20px;
+    background: #fff;
+    position: fixed;
+    top: 50%;
+    border-radius: 20px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    input,button{
+        width: 100%;
+        height: 50px;
+        outline: none;
+        border-radius: 10px;
+        background: transparent;
+        font-size: 20px;
+    }
+    input{
+        padding: 20px;
+    }
+    button{
+        background: green;
+        color: white;
+        border: 1px solid green;
+        transition: 0.4s;
+    }
+    button:hover{
+        opacity: 0.8;
+    }
+}
+
+.close__module-btn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: red;
+    font-size: 35px;
+    cursor: pointer;
+}

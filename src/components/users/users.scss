@@ -31,13 +31,14 @@
 .user__card__btns {
   display: flex;
   align-items: center;
-  gap: 20px;
+  justify-content: space-between;
   button {
     padding: 10px 20px;
     color: white;
     border: 1px solid transparent;
     border-radius: 5px;
     transition: 0.3s;
+    width: 45%;
   }
   button:hover {
     opacity: 0.6;
