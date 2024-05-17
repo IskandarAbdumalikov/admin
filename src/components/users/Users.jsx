@@ -1,7 +1,8 @@
-import React, { Fragment, useState } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import "./users.scss";
 import axios from "../../api/index";
 import EditUserModule from "../../pages/editUserModule/editUserModule";
+const LIMIT = 3;
 
 const Users = ({ data, isAdmin, setReload }) => {
   let [editUser, setEditUser] = useState(null);
